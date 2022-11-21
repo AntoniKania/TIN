@@ -1,0 +1,7 @@
+body {
+  background: #d2dc9d url(blackgoose.png) no-repeat center fixed !important;
+}
+
+header {
+  background: url(purpledot.png) left repeat-y, url(purpledot.png) right repeat-y, url(gooseshadow.png) 90% 100% no-repeat, rgba(255, 255, 255, 0.5) !important;
+}
