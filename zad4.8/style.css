@@ -1,0 +1,7 @@
+::selection {
+  color: green;
+}
+
+#form :focus-within {
+  background-color: green;
+}
