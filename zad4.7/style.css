@@ -1,0 +1,20 @@
+div {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-bottom: 5px solid gray;
+  margin: 15px;
+}
+
+#gradient-one {
+  background: repeating-linear-gradient(90deg, white, white 30px, black 30px, black 58px);
+}
+
+#gradient-two {
+  background: linear-gradient(135deg, black 25%, transparent 25%) -25px 0,
+    linear-gradient(-135deg, black 25%, transparent 25%) -25px 0,
+    linear-gradient(45deg, black 25%, transparent 25%),
+    linear-gradient(-45deg, black 25%, transparent 25%);
+  background-size: 50px 50px;
+  border-right: 15px solid black;
+}
