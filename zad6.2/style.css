@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 10px solid rgb(167, 167, 167);
+}
+
+.box {
+    text-shadow: 2px 2px 15px black;
+    color: white;
+    text-align: center;
+    height: 5vh;
+    width: 100%;
+    padding-top: 1vh;
+
+}
+
+.one {
+    background-color: blueviolet;
+}
+
+.two {
+    background-color: bisque;
+}
+
+.three {
+    background-color: gray;
+}
+
+.four {
+    background-color: yellow;
+}
+
+.five {
+    background-color: green;
+}
+
+.six {
+    background-color: aqua;
+}
+
+.seven {
+    background-color: red;
+
+}
+
+.eight {
+    background-color: azure;
+}
+
+.nine {
+    background-color: aquamarine;
+}
+
+.ten {
+    background-color: rgb(244, 198, 104);
+}
