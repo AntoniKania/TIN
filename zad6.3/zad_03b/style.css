@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    font-style: normal;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    color: white;
+    text-align: center;
+    height: 6em;
+    width: 6em;
+    line-height: 3em;
+
+}
+
+.one {
+    background-color: rgb(212, 212, 212);
+}
+
+.two {
+    background-color: grey;
+}
+
+.three {
+    background-color: rgb(167, 167, 167);
+}
