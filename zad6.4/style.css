@@ -58,8 +58,13 @@ nav {
 }
 
 .picture {
+    color: white;
+    text-align: end;
     background-color: rgb(99, 112, 66);
-    height: 55%;
+    height: 20vh;
+    line-height: 38vh;
+    font-weight: lighter;
+    font-size: smaller;
 }
 
 .container article {
