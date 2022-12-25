@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    margin-bottom: 5vh;
+    background-image: url(https://t4.ftcdn.net/jpg/02/01/80/31/240_F_201803112_4DgiXEg8iiJT1QTQ9YN6dOdvaEai0N1v.jpg);
+    background-size: 100% 170%;
+}
+
+nav {
+    height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    gap: 20%;
+}
+
+.quote {
+    background-color: rgba(0, 0, 0, 0.242);
+    height: 20vh;
+    gap: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    margin-left: 2vh;
+}
+
+.container {
+    height: 90vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%
+}
+
+.box {
+    flex: 1 1 30%;
+    height: 300px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128);
+    font-size: 13px;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.picture {
+    background-color: rgb(99, 112, 66);
+    height: 55%;
+}
+
+.container article {
+    padding: 5px 10px;
+    font-weight: lighter;
+    font-size: 1.5vh;
+    margin-bottom: 20px;
+}
+
+.box h1 {
+    text-align: left;
+}
