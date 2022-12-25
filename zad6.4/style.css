@@ -49,28 +49,21 @@ nav {
     height: 300px;
     font-weight: bold;
     box-shadow: 2px 2px 5px rgb(128, 128, 128);
-    font-size: 13px;
+    font-size: 15px;
     text-align: justify;
     text-justify: inter-word;
     word-wrap: break-word;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    overflow: hidden
 }
 
 .picture {
-    color: white;
-    text-align: end;
     background-color: rgb(99, 112, 66);
-    height: 20vh;
-    line-height: 38vh;
-    font-weight: lighter;
-    font-size: smaller;
+    height: 55%;
 }
 
 .container article {
     padding: 5px 10px;
     font-weight: lighter;
-    font-size: 1.5vh;
     margin-bottom: 20px;
 }
 
